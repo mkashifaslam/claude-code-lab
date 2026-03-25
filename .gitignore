@@ -1,0 +1,18 @@
+# Ignore the .idea directory and any .local*.json files
+.idea/
+
+# Ignore any files that match the pattern
+*.local*.json
+*.local*.md
+
+# Ignore the node_modules directory and any .log files
+node_modules/
+*.log
+
+# Ignore the dist directory and any .cache files
+dist/
+.cache/
+
+# Ignore the .vscode directory and any .env files
+.vscode/
+.env
