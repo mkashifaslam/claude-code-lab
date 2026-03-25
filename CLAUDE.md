@@ -8,7 +8,7 @@ This is a sandbox for learning Claude Code features. Experiments live under `exp
 
 ## Repository Layout
 
-```
+```shell
 .claude/
   CLAUDE.md           # Project instructions (loaded at session start)
   settings.json       # Allowed Bash commands (git, npm, node, python3, etc.)
