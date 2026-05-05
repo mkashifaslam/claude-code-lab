@@ -1,0 +1,25 @@
+{
+  "name": "claude-code-lab",
+  "version": "1.0.0",
+  "description": "A hands-on learning workspace for mastering Claude Code features.",
+  "main": "dist/main.js",
+  "scripts": {
+    "clean": "rm -rf dist",
+    "dev": "tsx watch experiments/main.ts",
+    "start": "node dist/main.js",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com-kashif:mkashifaslam/claude-code-lab.git"
+  },
+  "keywords": [],
+  "author": "Muhammad Kashif",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@types/node": "^25.6.0",
+    "tsx": "^4.21.0",
+    "typescript": "^6.0.3"
+  }
+}

@@ -4,7 +4,8 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Purpose
 
-This is a sandbox for learning Claude Code features. Experiments live under `experiments/`, numbered by topic. Breaking things is fine — prefer real implementations over mocks.
+This is a sandbox for learning Claude Code features. Experiments live under `experiments/`, numbered by topic. Breaking
+things is fine — prefer real implementations over mocks.
 
 ## Repository Layout
 
@@ -15,6 +16,7 @@ This is a sandbox for learning Claude Code features. Experiments live under `exp
   skills/             # Custom slash commands
     explore-feature.md  # /explore-feature <name>
     lab-summary.md      # /lab-summary
+    deploy-hook.md      # /deploy-hook <name>
 experiments/
   01-claude-md/       # CLAUDE.md and memory system
   02-skills/          # Custom slash commands
@@ -36,5 +38,9 @@ experiments/
 
 ## Custom Skills
 
-- `/explore-feature <name>` — Research, implement, and document a Claude Code feature in the relevant `experiments/` folder.
+- `/explore-feature <name>` — Research, implement, and document a Claude Code feature in the relevant `experiments/`
+  folder.
 - `/lab-summary` — Review completed vs. pending experiments and recommend what to tackle next.
+- `/deploy-hook <name>` — Compile the named TypeScript hook (`experiments/03-hooks/<name>.ts`), deploy to
+  `.claude/hooks/`, and
+  verify all blocked/allowed patterns.

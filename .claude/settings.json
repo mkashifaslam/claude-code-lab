@@ -4,12 +4,24 @@
       "Bash(git:*)",
       "Bash(npm:*)",
       "Bash(node:*)",
-      "Bash(python3:*)",
       "Bash(ls:*)",
       "Bash(cat:*)",
       "Bash(mkdir:*)",
       "Bash(touch:*)",
       "Bash(echo:*)"
+    ]
+  },
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node /Users/muhammadkashif/Documents/projects/claude-code-lab/.claude/hooks/validate-bash.js"
+          }
+        ]
+      }
     ]
   }
 }
