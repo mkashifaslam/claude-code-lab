@@ -14,7 +14,7 @@
   "hooks": {
     "PreToolUse": [
       {
-        "matcher": "Bash",
+        "matcher": "Bash_disabled",
         "hooks": [
           {
             "type": "command",
