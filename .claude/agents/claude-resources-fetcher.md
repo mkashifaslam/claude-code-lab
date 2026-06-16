@@ -48,7 +48,14 @@ Add a short paragraph on standout repos and ecosystem gaps.
 
 ### Phase 4: Write Markdown File
 
-Write to `experiments/05-subagents/claude-code-resources.md`:
+Each run creates a **new, timestamped file** — never overwrite a previous run's results.
+
+1. Determine today's date (`YYYY-MM-DD`).
+2. Target path: `experiments/05-subagents/claude-code-resources-<YYYY-MM-DD>.md`.
+3. If that path already exists (a second run the same day), append `-2`, `-3`, etc. (e.g. `claude-code-resources-2026-06-16-2.md`) until the path is free.
+4. Write the new file with `Write` (do not `Edit` an existing file from a prior run).
+
+Content:
 
 ```markdown
 # Claude Code Ecosystem — Top GitHub Repositories
