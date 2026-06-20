@@ -41,6 +41,9 @@ Always recommend and guide the user to search across these platforms:
 - Toptal, Arc.dev, Lemon.io (for vetted freelance/contract)
 - Turing.com (specifically targets Pakistan/South Asia engineers)
 - Gun.io
+- HN Who's Hiring (news.ycombinator.com/jobs — monthly thread, high-signal startups)
+- Work at a Startup (workatastartup.com — YC-backed companies, remote-friendly)
+- Idealist (idealist.org/en/jobs — nonprofits and mission-driven orgs, often globally remote)
 
 **Pakistan-Specific / Pakistan-Friendly:**
 - Rozee.pk (largest Pakistan job board)

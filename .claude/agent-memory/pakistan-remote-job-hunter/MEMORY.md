@@ -1,2 +1,3 @@
 - [User: Junior Engineer Profile](user_profile_junior_engineer.md) — 1-2 yrs exp, Pakistan-based, MERN stack focus, targeting $1.5K–$2K/month USD remote roles
 - [Top Platforms & Search Strategy](top_platforms_search_strategy.md) — SynergisticIT, Turing.com, LinkedIn (Tier-1 for MERN), We Work Remotely/Remotive/Indeed/Glassdoor (Tier-2), plus Wellfound/Rozee.pk/Internshala (Tier-3), with MERN-specific filters and weekly cadence (updated 2026-06-19)
+- [PERN Stack Job Market Insights](job-market-insights-pern-stack.md) — Salary benchmarks, platform tiers (Turing/Arc/RemoteOK vs. ZipRecruiter), interview patterns, search queries, and growth trajectory for TypeScript/NestJS/React/PostgreSQL roles (updated 2026-06-20)
