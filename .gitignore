@@ -16,3 +16,6 @@ dist/
 # Ignore the .vscode directory and any .env files
 .vscode/
 .env
+
+# macOS
+.DS_Store
