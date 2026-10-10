@@ -35,6 +35,11 @@ experiments/
 - Each experiment folder gets a `README.md` documenting findings and key insights.
 - Keep experiments focused and minimal — prefer clarity to completeness.
 - Interesting discoveries should be noted in memory or in the relevant `README.md`.
+- Custom agents live in `.claude/agents/`. An agent whose deliverable is a file must say so explicitly in its definition
+  (Write is authorized, path rules, fallback only if Write errors); otherwise generic "return findings directly" guidance
+  can make it skip the file. When delegating, pass the exact output path in the prompt.
+  Example: `social-post-analysis-agent` (post + agenda → report), inputs in `data/`, reports written to
+  `experiments/05-subagents/<input-filename-in-kebab-case>-report.md`.
 
 ## Custom Skills
 
